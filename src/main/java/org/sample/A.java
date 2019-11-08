@@ -12,6 +12,8 @@ public class A extends BaseClass {
        WebElement txt = driver.findElement(By.id("email"));
       
        type(txt,"smartsaran");
+       WebElement txtpass = driver.findElement(By.id("pass"));
+       type(txtpass,"askdfjhk");
 	}
 
 }
