@@ -13,7 +13,7 @@ public class A extends BaseClass {
       
        type(txt,"smartsaran");
        WebElement txtpass = driver.findElement(By.id("pass"));
-       type(txtpass,"askdfjhk");
+       type(txtpass,"askdfj");
 	}
 
 }
