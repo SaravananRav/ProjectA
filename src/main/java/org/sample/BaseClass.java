@@ -8,15 +8,19 @@ public class BaseClass {
 	public static WebDriver driver;
 	public static WebDriver getDriver(){
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\smart saran\\Downloads\\eclipse-committers-oxygen-3a-win32\\eclipse\\saro\\New\\driverr\\chromedriver.exe");
-		 return driver=new ChromeDriver();
-		
+		  driver=new ChromeDriver();
+		return driver;
 	}
 	public static void loadurl(String url) {
     driver.get(url);
 	}
 	public static void type(WebElement e,String value) {
 		e.sendKeys(value);
+	
 
+	}
+	public static void click(WebElement e) {
+		e.click();
 	}
 
 }
