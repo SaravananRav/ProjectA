@@ -18,6 +18,8 @@ public class A extends BaseClass {
        
        WebElement btn = driver.findElement(By.xpath("//input[@id='u_0_2']"));
        click(btn);
+       WebElement txtpass = driver.findElement(By.id("pass"));
+       type(txtpass,"askdfjhk");
 	}
 
 }

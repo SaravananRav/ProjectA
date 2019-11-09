@@ -19,8 +19,12 @@ public class BaseClass {
 	
 
 	}
+<<<<<<< HEAD
 	public static void click(WebElement e) {
 		e.click();
 	}
+=======
+	
+>>>>>>> 5b22327153ec7e613ae6d7f8dae37506c29c1d53
 
 }
